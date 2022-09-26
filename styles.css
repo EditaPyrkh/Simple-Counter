@@ -1,0 +1,45 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(253, 253, 253);
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkslategray;
+}
+
+p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+    padding: 10px;
+}
+button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+
+    cursor: pointer;
+    border: none;
+
+    background-color: antiquewhite;
+    color: darkslategray;
+    font-family: 'Josefin Sans', sans-serif;
+}

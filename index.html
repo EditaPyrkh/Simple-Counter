@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Persons Counter</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="main" style="border-radius: 25px; background-color: rgb(108, 163, 145); padding: 25px;">
+      <h1>Edisu - sushi restaurant</h1>
+
+      <h2>Your name for reservation</h2>
+      <input type="name">
+      <p> </p>
+      <div class="btn">
+        <button onclick="p.innerHTML--">Delete</button>
+        <button onclick="p.innerHTML++">Add</button>
+        <button type="submit" id="submit" onclick="alerted()";>Confirm</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    var p = document.querySelector('p')
+    let input = document.querySelector('input');
+    paragraph.textContent = input.value;
+
+   
+    function alerted(){
+      
+      alert(`Confirmed! Thank you, ${input.value}.`);
+    } 
+    
+    
+    
+  </script>
+</html>
